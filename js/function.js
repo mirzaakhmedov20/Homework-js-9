@@ -8,7 +8,7 @@ function createRow(phone,index) {
         <td>${phone.description}</td>
         <td>${phone.createdAt}</td>
         <td>${phone.updatedAt}</td>
-        <td>
+        <td data-id = ${phone.id}>
             <i class="fa-regular fa-pen-to-square"></i>
             <i class="fa-regular fa-trash-can"></i>
         </td>
